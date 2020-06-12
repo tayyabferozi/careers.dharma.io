@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "Druk";
+  src: local("Druk"), url(./fonts/DrukCond-Super-Reduced.ttf);
+}
+
+@font-face {
+  font-family: "Graphik";
+  src: local("GraphikMedium"), url(./fonts/GraphikMedium.otf);
+}
+
+@font-face {
+  font-family: "Akkurat";
+  src: local("AkkuratMedium"), url(./fonts/Akkurat-Mono.OTF);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.TextCenter {
+  text-align: center !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+  font-weight: normal;
+}
+
+h1,
+h3 {
+  font-family: "Druk";
+  font-stretch: ultra-condensed;
+  font-weight: 600;
+}
+
+h2,
+h5 {
+  font-family: "Graphik";
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 1.563rem;
+}
+
+h5 {
+  font-size: 1.75rem;
+  margin-bottom: 1.563rem;
+}
+
+p {
+  font-family: "Akkurat";
+  color: #939cb3;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.Careers {
+  background-color: #07051e;
+  padding: 0 2rem;
+  position: relative;
+}
+
+.ArticlesContainer {
+  padding: 10rem 0;
+}
+
+@media screen and (max-width: 900px) {
+  .ArticlesContainer {
+    padding: 0;
+  }
+}
+
+.Strip {
+  transform: translate(-2rem);
+  margin-top: 11rem;
+  height: 10px;
+  width: 98.7vw;
+  background: linear-gradient(
+    87.4deg,
+    #fad14b,
+    #f38951 35.05%,
+    #a9b7d9 68.99%,
+    #fe10f4 100.7%
+  );
+}

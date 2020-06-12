@@ -1,0 +1,31 @@
+.Investors {
+  margin-bottom: 10rem;
+}
+
+.Investors h2 {
+  text-align: center;
+}
+
+.Investors p {
+  max-width: 25rem;
+  margin: auto;
+  text-align: center;
+}
+
+.Investors .Logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 40rem;
+  margin: 3rem auto;
+}
+
+@media screen and (max-width: 900px) {
+  .Investors .Logos {
+    flex-direction: column;
+  }
+
+  .Investors .Logos > * {
+    margin: 1.125rem 0;
+  }
+}

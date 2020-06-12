@@ -1,0 +1,38 @@
+.Article img {
+  width: 100%;
+}
+
+.Article .Row {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+.Article .Col {
+  max-width: 50%;
+}
+
+.Article .Col.ColText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 900px) {
+  .Article .Row {
+    flex-direction: column !important;
+    align-items: center !important;
+    margin-bottom: 3.75rem;
+  }
+
+  .Article .Col {
+    max-width: 80%;
+  }
+
+  .Article .Col.ColText {
+    margin-top: 3.75rem;
+    margin-bottom: 3.75rem;
+    text-align: center;
+    padding: 0 !important;
+  }
+}

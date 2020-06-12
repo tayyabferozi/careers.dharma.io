@@ -1,0 +1,25 @@
+.Benefits {
+  margin: 1rem 0 10rem;
+}
+
+.BenefitsContainer {
+  padding: 0 8.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Benefits h2 {
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.Benefits {
+  margin-bottom: calc(7.5rem - 2rem);
+}
+
+@media screen and (max-width: 900px) {
+  .BenefitsContainer {
+    padding: 0;
+  }
+}
