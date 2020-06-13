@@ -1,5 +1,5 @@
 .Article img {
-  width: 100%;
+  /* width: 100%; */
 }
 
 .Article .Row {
@@ -8,14 +8,18 @@
   max-width: 100%;
 }
 
-.Article .Col {
-  max-width: 50%;
+.Article .Col.ColImg img {
+  /* max-width: 50%; */
+  max-width: 600px !important;
+  /* margin-right: 40px; */
 }
 
 .Article .Col.ColText {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 0 !important;
+  max-width: 500px;
 }
 
 @media screen and (max-width: 900px) {
@@ -25,8 +29,15 @@
     margin-bottom: 3.75rem;
   }
 
+  .Article .Col.ColImg img {
+    /* max-width: 50%; */
+    width: 100%;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+  }
+
   .Article .Col {
-    max-width: 80%;
+    /* max-width: 80%; */
   }
 
   .Article .Col.ColText {

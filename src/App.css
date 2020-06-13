@@ -49,6 +49,7 @@ h5 {
 h2 {
   font-size: 3rem;
   margin-bottom: 1.563rem;
+  line-height: 48px !important;
 }
 
 h5 {
@@ -58,19 +59,19 @@ h5 {
 
 p {
   font-family: "Akkurat";
-  color: #939cb3;
+  color: #9c9cb3;
   font-size: 14px;
   line-height: 26px;
 }
 
 .Careers {
+  padding: 0 30px;
   background-color: #07051e;
-  padding: 0 2rem;
   position: relative;
 }
 
 .ArticlesContainer {
-  padding: 10rem 0;
+  padding: 12.5rem 0;
 }
 
 @media screen and (max-width: 900px) {
@@ -81,7 +82,7 @@ p {
 
 .Strip {
   transform: translate(-2rem);
-  margin-top: 11rem;
+  margin-top: 10rem;
   height: 10px;
   width: 98.7vw;
   background: linear-gradient(

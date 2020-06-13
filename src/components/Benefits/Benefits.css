@@ -1,21 +1,23 @@
 .Benefits {
-  margin: 1rem 0 10rem;
+  margin: 0 0 10rem;
 }
 
 .BenefitsContainer {
-  padding: 0 8.5rem;
+  /* padding: 0 8.5rem; */
+  /* padding: 0 9.375rem; */
+  /* padding: 0 17%; */
+  max-width: 900px;
+  padding-right: 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .Benefits h2 {
   margin-bottom: 5rem;
   text-align: center;
-}
-
-.Benefits {
-  margin-bottom: calc(7.5rem - 2rem);
 }
 
 @media screen and (max-width: 900px) {

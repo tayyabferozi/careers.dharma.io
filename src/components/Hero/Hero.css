@@ -1,5 +1,5 @@
 .Hero {
-  padding: 4rem 1.5rem;
+  padding: 4rem 0;
 }
 
 .Hero .Logo {
@@ -15,7 +15,7 @@
   line-height: 11.375rem;
   text-align: center;
   color: #fff;
-  margin: 6.4rem auto 1.25rem;
+  margin: 9% auto 1.25rem;
   position: relative;
   background-image: url("../../media/squiggle.svg");
   background-position: center;
@@ -73,9 +73,6 @@
 }
 
 @media screen and (max-width: 1150px) {
-  .Hero .Logo {
-    width: 2.5rem;
-  }
   .Hero h1 {
     font-size: 10rem;
     max-width: 43.75rem;
@@ -100,12 +97,16 @@
 }
 
 @media screen and (max-width: 900px) {
+  .Hero .Logo {
+    width: 2.5rem;
+  }
   .Hero {
     padding-top: 2.5rem;
   }
 
   .Hero h1 {
     font-size: 6.625rem;
+    margin-bottom: 0;
     background: none;
     max-width: 28.984rem;
     line-height: 5.625rem;

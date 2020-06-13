@@ -7,7 +7,7 @@
 }
 
 .Investors p {
-  max-width: 25rem;
+  max-width: 31.25rem;
   margin: auto;
   text-align: center;
 }
@@ -16,8 +16,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 40rem;
-  margin: 3rem auto;
+  max-width: 45.125rem;
+  margin: 3.75rem auto;
+  padding: 0 1.875rem;
 }
 
 @media screen and (max-width: 900px) {

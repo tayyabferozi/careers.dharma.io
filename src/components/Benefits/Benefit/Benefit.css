@@ -3,8 +3,16 @@
   max-width: 49%;
 }
 
+.Benefit p {
+  max-width: 500px;
+}
+
 @media screen and (max-width: 900px) {
   .Benefit {
     max-width: 100%;
+  }
+
+  .Benefit p {
+    margin-right: 50px;
   }
 }
